@@ -7,6 +7,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
         <div className="flex max-h-[800px] flex-col justify-center space-y-12">
           <Image
             src="/assets/icons/logo-full.svg"
+            loading="eager"
             alt="logo"
             width={224}
             height={82}
