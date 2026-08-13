@@ -13,6 +13,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "StoreIt",
   description: "The best place to store your files and share them with others.",
+  icons:{
+    icon:"/favicon.ico",
+  }
 };
 
 export default function RootLayout({
