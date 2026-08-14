@@ -44,12 +44,14 @@ const AuthForm = ({ type }: { type: FormType }) => {
         name="fullName"
         render={({ field }) => (
           <FormItem>
+
             <div className="shad-form-item">
             <FormLabel className="shad-form-label">Full Name</FormLabel>
             <FormControl>
               <Input placeholder="brianmongare" {...field} />
             </FormControl>
             </div>
+            
           </FormItem>
         )}
       />)}
