@@ -35,6 +35,7 @@ const layout = ({ children }: { children: React.ReactNode }) => {
         <div className="mb-16 lg:hidden">
             <Image
               src="/assets/icons/logo-full-brand.svg"
+              loading="eager"
               alt="logo"
               width={224}
               height={82}
